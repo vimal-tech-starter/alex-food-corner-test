@@ -20,9 +20,11 @@ const Navbar = () => {
         <div className=" fixed w-full">
             <di>
                 <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
-                    <div className=" flex flex-row items-center space-x-4 cursor-pointer">
-
-                        <img src="./src/assets/img/logo-square.jpg" alt="Your Company" class="h-20 w-auto rounded-lg " />
+                    <div className=" flex flex-row items-center space-x-4 cursor-pointer" >
+                        <Link to="/">
+                            <img src="./src/assets/img/logo-square.jpg" alt="Blog Logo" class="h-20 w-auto rounded-lg"/>
+                        </Link>
+                        {/* <img src="./src/assets/img/logo-square.jpg" alt="Your Company" class="h-20 w-auto rounded-lg " /> */}
                         <h1 className=" text-5xl font-bold text-red-500 mix-blend-multiply italic">AFC</h1>
                     </div>
                     <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">

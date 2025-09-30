@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { AiOutlineMenuUnfold, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 import { BiChevronDown } from "react-icons/bi";
-import logo from '../assets/img/logo-square.jpg';
+import logo from '/logo-square.jpg';
 
 const Navbar = () => {
 
